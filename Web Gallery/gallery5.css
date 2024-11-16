@@ -1,0 +1,133 @@
+* { /* Reset styles */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styles for container class */
+.container {
+  width: 100%;
+  height: 100vh; /* Viewport height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Images/Dining-WCTL-OG-1200x630-1.jpg);
+}
+
+/* Gallery styles */
+.gallery {
+  width: 1500px;
+  height: 700px;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: none;       /* Initially hidden */
+  align-items: center;
+  justify-items: center;
+  display: grid;
+  grid-template-columns: auto auto auto auto ;  /* Four equal-width columns */
+}
+
+/* Image box styles */
+.img-box1 {
+  width: 280px;
+  height: 380px;
+  margin: 15px;
+  border-radius: 50px;
+  background: url("Images/5.1.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.img-box2 {
+  width: 280px;
+  height: 380px;
+  margin: 15px;
+  border-radius: 50px;
+  background: url("Images/5.2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.img-box3 {
+  width: 280px;
+  height: 380px;
+  margin: 15px;
+  border-radius: 50px;
+  background: url("Images/5.3.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.img-box4 {
+  width: 280px;
+  height: 380px;
+  margin: 15px;
+  border-radius: 50px;
+  background: url("Images/5.4.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+
+/* Image box hover effect */
+.img-box1:hover {
+  width: 280px;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.img-box2:hover {
+  width: 280px;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.img-box3:hover {
+  width: 280px;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.img-box4:hover {
+  width: 280px;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+/* Modal styles */
+#modal {
+  display: none; /* Initially hidden */
+}
+
+.modal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  z-index: 9999;  /* Ensure the modal is on top */
+  height: 100vh;
+  position: fixed;
+  background-color: rgba(12, 12, 12, 0.9);
+  
+}
+
+.modal-body {
+  width: 600px;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  padding-left: 35px;
+  padding-right: 25px;
+}
+
+.close {
+  position: absolute;
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  top: 15px;
+  right: 400px;
+  cursor: pointer;
+}

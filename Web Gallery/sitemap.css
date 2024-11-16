@@ -1,0 +1,155 @@
+
+*{
+	font-family: 'Times New Roman', Times, serif;
+	font-size: medium;
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body{
+	
+	background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.7)),url(Images/wp7507088.jpg);
+	background-size : cover;
+	background-attachment: fixed;
+	background-position: 0px 10px 0px 0px;
+	
+}
+.text {                               
+	background-color: rgba(2, 254, 115, 0.5); 
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+	border: 3px solid #2aff91;
+	position: absolute;
+	top: 200px;
+	left: 38px;
+	z-index: 2;
+	width: 95%;
+	padding: 40px; 
+	
+}
+
+.text svg {
+    width: 100%;
+    height: auto;
+}
+.node {
+    fill: transparent;
+	stroke: #ffffff;
+    stroke-width: 5px;
+}
+.arrow {
+    fill: none;
+    stroke: #ffffff;
+    stroke-width: 3px;
+	marker-end: url();
+}
+text{
+	fill: rgb(0, 0, 0);
+	font-size: 30px;
+}
+text :hover{
+	fill: #ffffff;
+}
+#text_box_text{
+	font-size: 50px;
+	text-align: center;
+	color: #ffffff;
+}
+
+nav {
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    padding: 0px 100px; 
+    position: fixed;
+    background-color: rgba(0, 253, 139, 0.812);
+ }
+ nav img {
+     height: 100px;
+     width: auto;
+     padding: 0 20px;
+     float: left; 
+ }
+ 
+ 
+ nav ul {
+     float: right;
+     margin-right: 20px;
+ }
+ 
+ nav ul li {
+     display: inline-block;
+     line-height: 80px;
+     margin: 0 5px;
+ }
+ 
+ nav ul li a {
+     color: #000;
+     font-size: 17px;
+     padding: 7px 13px;
+     border-radius: 3px;
+     text-transform: uppercase;
+     text-decoration: none;
+ }
+ 
+ a.active,
+ a:hover {
+     background: #00ffae;
+     transition: 0.5s;
+ }
+
+ .footerContainer {
+    width: 100%;
+    padding: 70px 30px 20px;
+    margin: 0;
+    box-sizing: border-box;
+    
+    }
+    
+    footer {
+    background-color: rgba(0, 253, 139, 0.812);
+    position: relative;
+    top: 700px;
+    }
+    
+    .footerNav {
+    margin: 30px 0;
+    }
+    
+    .footerNav ul {
+    display: flex;
+    justify-content: center;
+    }
+    
+    .footerNav ul li a {
+    color: #000000;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+    }
+    
+    .footerNav ul li a:hover {
+    opacity: 1;
+    }
+    
+    .footerBottom {
+    background-color: rgba(0, 253, 139, 0.812);
+    padding: 20px;
+    text-align: center;
+    }
+    
+    .footerBottom p {
+    color: #fff;
+    }
+    
+    .designer {
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+    }
+    
